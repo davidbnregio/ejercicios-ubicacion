@@ -76,15 +76,17 @@ public class tablero {
 		{
 			return -1;
 		}
+		
 		if(get(x-j, y+j) == 1) 
 		{
 			return -1;
 		}
 		
-		if(get(x-j, y-j) == 1) 
+		if(get(x+j, y-j) == 1) 
 		{
 			return -1;
 		}
+		
 		if(get(x+j, y+j) == 1) 
 		{
 			return -1;
